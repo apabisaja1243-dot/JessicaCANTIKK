@@ -6,8 +6,8 @@ const memories = [
 ];
 
 const milestones = [
-  { date: "THE BEGINNING", title: "When our story started", description: "Hari ketika semesta mempertemukan kita. Nggak tahu akan sejauh apa, tapi ternyata jadi awal dari sesuatu yang indah." },
-  { date: "A LITTLE LATER", title: "Our first favorite memory", description: "Momen sederhana yang sampai sekarang masih suka bikin senyum sendiri kalau diingat." },
+  { date: "THE BEGINNING", title: "When our story started", description: "Pokoknya pada saat aku kepencet DM WKWKWK" },
+  { date: "A LITTLE LATER", title: "My first favorite memory", description: "Pas kamu bilang 'kepencet terus aja gapapa WKWKWK' " },
   { date: "TODAY & ALWAYS", title: "Still choosing you", description: "Masih banyak cerita yang belum ditulis. Semoga kita terus punya alasan untuk saling memilih." }
 ];
 
