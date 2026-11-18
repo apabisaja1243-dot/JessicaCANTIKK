@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5efe6">
+  <title>Our Little Universe ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+  <div class="grain"></div>
+  <header class="site-header">
+    <a class="brand" href="#home">little universe<span>♡</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <nav id="nav">
+      <a href="#letter">A letter</a><a href="#memories">Memories</a><a href="#journey">Our journey</a><a href="#reasons">Why you</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE PLACE, JUST FOR YOU</p>
+        <h1>To my favorite<br><em>person.</em></h1>
+        <p class="intro">Some feelings are too lovely to keep in a text message. So I made you a little corner of the internet.</p>
+        <a class="button button-dark" href="#letter">Open your little surprise <span>↗</span></a>
+        <p class="signature">made with love, always ♡</p>
+      </div>
+      <div class="hero-art">
+        <div class="sun"></div><div class="hero-photo"><img src="assets/jessica5.jpg" alt="Pasangan berjalan bersama"></div>
+        <div class="floating-note">Jessica Novelia Asraka<br></div>
+        <span class="sparkle s1">✳</span><span class="sparkle s2">✧</span>
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="section-heading"><p class="eyebrow">WORDS FROM MY HEART</p><h2>A little letter<br><em>for you.</em></h2></div>
+      <div class="envelope-wrap">
+        <button class="envelope" id="openLetter" aria-label="Buka surat cinta">
+          <span class="envelope-back"></span><span class="letter-paper"><span class="letter-heart">♡</span><span class="letter-label">For my love</span></span><span class="envelope-front"></span><span class="envelope-flap"></span>
+        </button>
+        <p class="hint">tap the envelope to open ♡</p>
+      </div>
+    </section>
+
+    <section class="memories-section section" id="memories">
+      <div class="section-heading centered"><h2><em>JESSICA.</em></h2><p class="section-desc">A Pretty Girl i ever have</p></div>
+      <div class="memory-grid" id="memoryGrid"></div>
+    </section>
+
+    <section class="journey-section section" id="journey">
+      <div class="section-heading"><p class="eyebrow">FROM THEN TO NOW</p><h2>Our little <em>journey.</em></h2><p class="section-desc">Every chapter with you is my favorite one.</p></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="song-section section">
+      <div class="song-card">
+        <div class="vinyl"><div class="vinyl-label">♡</div></div>
+        <div class="song-copy"><p class="eyebrow">A SONG THAT FEELS LIKE YOU</p><h2>A Song for<br><em>Jessica.</em></h2><p>Put on this song!</p>
+          <audio id="audio" controls preload="none"><source src="assets/She's Electric.mp3" type="audio/mpeg"Mantappp kan Lagunyaa???</audio>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons-section section" id="reasons">
+      <div class="section-heading centered"><p class="eyebrow">A NEVER-ENDING LIST</p><h2>Little reasons<br><em>why I love you.</em></h2></div>
+      <div class="reason-card"><span class="reason-number" id="reasonNumber">01 / 06</span><p class="reason-text" id="reasonText">The way you make ordinary days feel special.</p><button class="round-button" id="nextReason" aria-label="Alasan berikutnya">→</button></div>
+      <p class="hint">there are a million more, but let's start here.</p>
+    </section>
+
+    <section class="gift-section section">
+      <div class="gift-inner"><p class="eyebrow">ONE LAST LITTLE THING</p><h2>I have a <em>surprise</em><br>for you.</h2><p>Because you deserve to feel loved, not just today, but every day.</p>
+        <button class="button button-light" id="giftButton">Open your gift ♡</button>
+      </div>
+      <span class="gift-star star-a">✳</span><span class="gift-star star-b">✧</span>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home">little universe<span>♡</span></a><p>made for you, with all my heart.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+
+  <dialog id="letterDialog" class="modal">
+    <button class="modal-close" data-close aria-label="Tutup">×</button>
+    <p class="eyebrow">MY DEAREST</p><h2>To you, <em>always.</em></h2>
+    <div class="letter-content">
+      <p>Hi, sayang.</p>
+      <p>Aku mungkin ga sejelek jefri nichol dan ga sejelek mantan - mantan kamu, tapi aku mau berhenti ngerokok sekarang ahayy</p>
+      <p>Makasih ya sayang udah notice aku di IG walaupun waktu itu kamu masih sama mantan kamu yang di GS WKWKKW</p>
+      <p>Makasihh jugaa udah selalu ngingetin domba yang hilang ini buat berdoa, hehe</p>
+      <p>I LOVE YOU, MORE THAN WORDS I CAN EXPLAIN SAYANGG</p>
+      <p class="letter-sign">With all my love,<br><em>Your favorite person ♡</em></p>
+    </div>
+  </dialog>
+
+  <dialog id="giftDialog" class="modal gift-modal">
+    <button class="modal-close" data-close aria-label="Tutup">×</button>
+    <div class="gift-icon">♡</div><p class="eyebrow">YOUR LITTLE REMINDER</p>
+    <h2>You are my<br><em>favorite hello</em><br>and hardest goodbye.</h2>
+    <p>Whatever today looks like, I hope you remember: you are loved, appreciated, and never alone.</p>
+    <button class="button button-dark" data-close>Hug received ♡</button>
+  </dialog>
+
+  <dialog id="photoDialog" class="modal photo-modal">
+    <button class="modal-close" data-close aria-label="Tutup">×</button><img id="lightboxImage" src="" alt=""><p id="lightboxCaption"></p>
+  </dialog>
+  <script src="js/script.js"></script>
+</body>
+</html>
