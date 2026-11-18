@@ -10,7 +10,6 @@ const milestones = [
   { date: "A LITTLE LATER", title: "My first favorite memory", description: "Pas kamu bilang 'kepencet terus aja gapapa WKWKWK' " },
   { date: "TODAY & ALWAYS", title: "Still choosing you", description: "Masih banyak cerita yang belum ditulis. Semoga kita terus punya alasan untuk saling memilih." }
 ];
-
 const reasons = [
   "The way you make ordinary days feel special.",
   "Your laugh is still my favorite sound.",
